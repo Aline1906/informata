@@ -1,2 +1,2 @@
 # informata
-Projeto criado para criação de usuário e login da empresa Informata
+Projeto para cadastro de usuários e login da empresa Informata
