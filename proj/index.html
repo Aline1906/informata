@@ -1,0 +1,112 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+        <title>Cadastro</title>
+    </head>
+    <body>
+
+        <!--imagem da logomarca da empresa-->
+
+        <img class= "container" src="imagem/logo-full.png">  
+    </br>
+        <div>
+        <div>
+            <h2 id="titulo">Cadastro Funcionários Informata</h2></br>
+        </div>
+
+        <div class="primeiro-cadastro">
+
+        <form>
+            <!--inicio do formulario-->
+
+            <fieldset class="grupo">
+
+            <!--campo para o primeiro item que é o nome-->
+
+                <div class="campo">
+                    <label for="nome"><strong>Nome Completo</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!--campo para inserir o documento para cadastro-->
+
+                <div class="campo">
+                    <label for="documento"><strong>Documento CPF</strong></label>
+                    <input type="text" name="documentocpf" id="documentocpf" required>
+                    
+                </div>
+
+                <!--campo para inserir o numero de telefone-->
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </div>
+
+                <!--campo para inserir o email-->
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+
+                </div>
+
+                <!--campo para inserir a senha-->
+
+                <div class="campo">
+                    <label for="senha"><strong>Senha</strong></label>
+                    <input type="password" name="senha" id="senha" required>
+                </div> 
+
+            </fieldset>
+
+            <!--botão para enviar o cadastro-->
+
+            <button class="botao" type="submit" onsubmit="">Cadastrar</button> </br></br>
+        </div>
+
+
+
+        <!--inicio da segunda coluna que é o login-->
+
+        <div class="primeiro-login"> 
+
+            <div>
+                <h2 id="titulo" class="titulo-login">Login</h2>
+            </div>
+
+
+    <form>
+        <!--inicio do formulario-->
+
+        <fieldset class="grupo">
+
+            <!--campo para inserir o email-->
+
+            <div class="campo-login">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+
+            </div>
+
+            <!--campo para inserir a senha-->
+            <div class="campo-login">
+                <label for="senha"><strong>&nbsp;&nbsp;&nbsp;Senha</strong></label>
+                <input type="password" name="senha" id="senha" required>
+                &nbsp;&nbsp;&nbsp;<button class="botao-login" type="submit" onsubmit="">Entrar</button>
+            </div> 
+
+        </fieldset>
+
+    </div>
+    </div>
+
+    </form>
+
+    </body>
+
+</html>
